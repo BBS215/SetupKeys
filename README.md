@@ -12,6 +12,8 @@ SetupKeys.exe read/r/write/w key_num usage_page modifiers scancode
 
 Пример:
 
+=========================================
+
 : SetupKeys.exe read 2
 
 Device found: VID: 0x043B  PID: 0x0325  UsagePage: 0x1  Usage: 0x80
@@ -26,9 +28,13 @@ Modifiers: 0x0
 
 Scancode: 0x1E
 
+=========================================
+
 Запись настроек: SetupKeys.exe write key_num usage_page modifiers scancode
 
 Пример:
+
+=========================================
 
 : SetupKeys.exe write 3 7 0 0x1f
 
@@ -44,3 +50,4 @@ Scancode: 0x1F
 
 Writing settings of key 3... OK!
 
+=========================================
