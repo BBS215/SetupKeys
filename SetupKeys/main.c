@@ -351,7 +351,7 @@ LONG __cdecl main(LONG argc, LPSTR * argv)
 		uint8_t key_num = (uint8_t)param1;
 		uint8_t usage_page = (uint8_t)param2;
 		uint8_t modifiers = (uint8_t)param3;
-		uint16_t scancode = (uint8_t)param4;
+		uint16_t scancode = (uint16_t)param4;
 		printf("Key_num: %d\n", key_num);
 		printf("Usage page: 0x%X\n", usage_page);
 		printf("Modifiers: 0x%X\n", modifiers);
